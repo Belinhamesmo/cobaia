@@ -19,11 +19,12 @@
 <body>
     <div class="container"> 
         <header class="head_my-3">
+
             <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ffffff5b;">
                 <a class="navbar-brand d-flex align-items-center" href="#navbarnav">
                     <img src="assets/images/logo_clínicaAtivo 10.svg" alt="website logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>     
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -42,13 +43,14 @@
                             <a class="nav-link" href="https://writer.zohopublic.com/writer/published/0988d016b148ec2254ea48402ecac64cc254f" target= "blank">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-outline-primary" href="#soliciteorçamento" >Solicite um orçamento </button>
+                            <button type="button" class="btn btn-outline-primary btn-lg" href="#Orçamentos" >Solicite um orçamento </button>
                         </li>
                     </ul>
                 </div>
             </nav>
             <div data-spy="scroll" data-target="#navbarNav" data-offset="0">
                 <section id="#serviços"></section>
+                <section id="#Orçamentos"></section>
               </div>
         </header>
     </div>
@@ -64,7 +66,7 @@
                         <div class="col-12 col-md-4">
                             <h2>AUXILIANDO PEQUENAS EMPRESAS</h2>
                             <p>A medicina do trabalho, também conhecida como medicina ocupacional, pode ser definida como a especialidade médica que lida com as relações entre saúde dos trabalhadores e seu trabalho, visando não apenas a prevenção das doenças e dos acidentes de trabalho, mas a promoção de sua saúde e qualidade de vida.</p>
-                            <button type="button" class="btn btn-primary btn-lg">Solicite um orçamento</button>
+                            <button type="button" class="btn btn-primary btn-lg">Solicite um orçamento </button>
                         </div>
                         <div class="col-12 col-lg-8">
                             <img src="assets/images/Grupo 2.svg" class="Medicina_banner">
@@ -99,18 +101,37 @@
 <!--------- Orçamento ----------> 
      <section id="Orçamentos">
         <div class="container">
-          <section class="bloco3" id="serviços">
-              <section id="Serviços">
+          <section class="bloco3" id="orçamentos">
+              <section id="orçamentos">
                   <div class="container">
                       <div class="row custom-section d-flex align-items-center">
                           <div class="col-my-lg-0">
                               <h2>SOLICITE UM ORÇAMENTO </h2>
                               <p>Entre em contato agora mesmo e solicite um orçamento conosco!</p>
-                              <button type="button" class="btn btn-primary btn-lg">Solicite um orçamento</button>
-                            
+                              <form>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1">Email </label>
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlSelect1">Selecione uma opção </label>
+                                  <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                  </select>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Mensagem</label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-lg">Solicite um orçamento</button>
+                              </form>
                           </div>
                           <div class="col-lt-4">
-                              <img src="assets/images/Grupo 2.svg" class="Medicina_banner">
+                              <img src="assets/images/ORÇAMENTOAtivo 7.svg" class="Medicina_banner">
                           </div>
                       </div>
                   </div>
